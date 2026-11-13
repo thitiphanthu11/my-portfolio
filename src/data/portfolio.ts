@@ -59,12 +59,13 @@ export const portfolio: Portfolio = {
     {
       id: "01",
       period: "[Month Year]",
-      name: "Rice Yield Decline Analysis Using Machine Learning",
+      name: "Analysis of Factors Affecting Rice Yield Decline Using Machine Learning",
       category: "Machine Learning",
-      description: "Rice yield analysis and predictive modeling with five regression models.",
+      description: "Analyzed factors affecting rice yield decline and built predictive models to support informed agricultural planning.",
       highlights: [
+        "Developed a machine learning project to analyze and predict rice yield decline, helping farmers make informed decisions and improve agricultural planning.",
         "Cleaned and preprocessed rice yield datasets using Python and Pandas for predictive modeling.",
-        "Developed and compared five regression models: Ridge Regression, Random Forest, CatBoost, XGBoost, and LightGBM.",
+        "Conducted an end-to-end machine learning project, from data collection and preprocessing to model development, to analyze key factors affecting rice yield, including rainfall, humidity, temperature, and plant diseases.",
         "Trained and evaluated five regression models, with Ridge Regression achieving the highest R² score of 0.9125.",
       ],
       stack: ["Python", "Pandas", "Scikit-learn"],
@@ -137,12 +138,13 @@ type ProjectTranslation = Pick<Project, "period" | "name" | "category" | "descri
 const thaiProjects: Record<string, ProjectTranslation> = {
   "01": {
     period: "[เดือน ปี]",
-    name: "การวิเคราะห์การลดลงของผลผลิตข้าวด้วย Machine Learning",
+    name: "การวิเคราะห์ปัจจัยที่ส่งผลต่อการลดลงของผลผลิตข้าวด้วย Machine Learning",
     category: "แมชชีนเลิร์นนิง",
-    description: "วิเคราะห์ผลผลิตข้าวและสร้างโมเดลพยากรณ์ โดยเปรียบเทียบโมเดลถดถอย 5 แบบ",
+    description: "วิเคราะห์ปัจจัยที่ส่งผลต่อการลดลงของผลผลิตข้าวและสร้างโมเดลพยากรณ์ เพื่อสนับสนุนการวางแผนการเกษตรอย่างมีข้อมูล",
     highlights: [
+      "พัฒนาโปรเจกต์ Machine Learning เพื่อวิเคราะห์และพยากรณ์การลดลงของผลผลิตข้าว ช่วยให้เกษตรกรตัดสินใจและวางแผนด้านการเกษตรได้อย่างมีข้อมูล",
       "ทำความสะอาดและเตรียมชุดข้อมูลผลผลิตข้าวด้วย Python และ Pandas เพื่อใช้สร้างโมเดลพยากรณ์",
-      "พัฒนาและเปรียบเทียบโมเดลถดถอย 5 แบบ ได้แก่ Ridge Regression, Random Forest, CatBoost, XGBoost และ LightGBM",
+      "ดำเนินโครงการ Machine Learning แบบครบวงจร ตั้งแต่รวบรวมและเตรียมข้อมูลจนถึงพัฒนาโมเดล เพื่อวิเคราะห์ปัจจัยสำคัญที่ส่งผลต่อผลผลิตข้าว เช่น ปริมาณฝน ความชื้น อุณหภูมิ และโรคพืช",
       "ฝึกและประเมินโมเดลถดถอยทั้ง 5 แบบ โดย Ridge Regression ให้ค่า R² สูงที่สุดที่ 0.9125",
     ],
   },
