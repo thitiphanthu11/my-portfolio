@@ -1,6 +1,6 @@
 export type Social = { label: string; kind: "github" | "linkedin" | "email" | "instagram"; href: string | null };
 export type PortfolioLink = { label: string; href: string };
-export type Project = { id: string; period: string; name: string; category: string; description: string; highlights?: string[]; stack: string[]; github: string | null; demo: string | null; links?: PortfolioLink[] };
+export type Project = { id: string; period: string; name: string; category: string; description: string | null; highlights?: string[]; stack: string[]; github: string | null; demo: string | null; links?: PortfolioLink[] };
 export type Locale = "en" | "th";
 export const LANGUAGE_COOKIE = "portfolio-language";
 export type NavigationItem = { id: string; label: string };
@@ -77,7 +77,7 @@ export const portfolio: Portfolio = {
       period: "[Month Year]",
       name: "Rice Disease Prediction Using Deep Learning",
       category: "Deep Learning",
-      description: "A two-stage deep learning pipeline for rice leaf detection and disease classification.",
+      description: null,
       highlights: [
         "Developed a two-stage deep learning pipeline using binary classification for rice leaf detection, followed by six-class disease classification.",
         "Trained and compared five CNN architectures using transfer learning and hyperparameter tuning.",
@@ -136,7 +136,7 @@ const thaiProjects: Record<string, ProjectTranslation> = {
     period: "[เดือน ปี]",
     name: "การทำนายโรคข้าวด้วย Deep Learning",
     category: "ดีปเลิร์นนิง",
-    description: "ระบบประมวลผลด้วย Deep Learning สองขั้นตอน สำหรับตรวจจับใบข้าวและจำแนกโรคข้าว",
+    description: null,
     highlights: [
       "พัฒนาระบบ Deep Learning สองขั้นตอน โดยใช้การจำแนกแบบสองกลุ่มเพื่อตรวจจับใบข้าว แล้วจำแนกโรคออกเป็น 6 กลุ่ม",
       "ฝึกและเปรียบเทียบสถาปัตยกรรม CNN จำนวน 5 แบบ โดยใช้ Transfer Learning และปรับค่า Hyperparameter",

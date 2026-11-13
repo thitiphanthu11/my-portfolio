@@ -20,7 +20,7 @@ export function ProjectCard({ project, copy }: { project: Project; copy: UiText 
           <span className="sr-only"> ({copy.opensInNewTab})</span>
         </a> : project.name}
       </h3>
-      <p className="reading-copy mt-3" data-motion-step="2">{project.description}</p>
+      {project.description && <p className="reading-copy mt-3" data-motion-step="2">{project.description}</p>}
       {project.highlights && <ul data-motion-step="3" className="reading-copy mt-3 space-y-3" aria-label={copy.projectDetails}>
         {project.highlights.map((highlight) => <li key={highlight}>{highlight}</li>)}
       </ul>}
