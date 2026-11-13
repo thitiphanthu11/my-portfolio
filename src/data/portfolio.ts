@@ -34,7 +34,7 @@ export const portfolio: Portfolio = {
   tagline: "Turning AI models into practical, real-world solutions.",
   email: "thitiphanthu11@gmail.com" as string | null,
   phone: { label: "091 039 2364", href: "tel:+66910392364" },
-  resumeUrl: "/Cv2.pdf",
+  resumeUrl: "/Cv3.pdf",
   siteUrl: null as string | null,
   description: "Personal portfolio of Thitiphan Peanbangna (Benz), a Digital Technology student at Suranaree University of Technology with interests in Data Science and AI.",
   aboutTitle: "Hi, I’m Benz.",

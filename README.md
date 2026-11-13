@@ -32,7 +32,7 @@ npm start
 
 ## แก้ไขข้อมูล
 
-- ปุ่ม `View Résumé` เปิดไฟล์ `public/Cv2.pdf` ในแท็บใหม่ หากอัปเดตเรซูเม่ให้แทนไฟล์นี้ หรือแก้ `resumeUrl` ใน `src/data/portfolio.ts`
+- ปุ่ม `View Résumé` เปิดไฟล์ `public/Cv3.pdf` ในแท็บใหม่ หากอัปเดตเรซูเม่ให้แทนไฟล์นี้ หรือแก้ `resumeUrl` ใน `src/data/portfolio.ts`
 
 - `src/data/portfolio.ts` — ข้อมูลส่วนตัว, About, ประสบการณ์, Projects, Skills, Activities และช่องทางติดต่อทั้งหมด
 - ข้อความใน `[วงเล็บ]` เป็น Placeholder ไม่ใช่ประวัติจริง ให้แทนด้วยข้อมูลที่ตรวจสอบได้
