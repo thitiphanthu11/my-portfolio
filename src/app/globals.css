@@ -159,6 +159,7 @@ a { transition: color 180ms, background 180ms, border-color 180ms; }
   .nav-item[aria-current] .nav-arrow, .nav-item:hover .nav-arrow, .nav-item:focus-visible .nav-arrow { opacity: 1; transform: translateX(0); }
 }
 @media (max-width: 1023px) { .site-shell { padding-top: 44px; } }
+@media (min-width: 640px) { .project-entry { grid-template-columns: 108px minmax(0, 1fr); column-gap: 24px; } }
 @media (max-width: 639px) {
   .language-toolbar { top: 12px; right: 16px; }
   .site-shell { padding: 44px 24px 0; }
