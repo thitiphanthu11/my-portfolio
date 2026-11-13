@@ -75,21 +75,6 @@ export const portfolio: Portfolio = {
     {
       id: "02",
       period: "[Month Year]",
-      name: "Disaster Risk Assessment and Data Analytics System",
-      category: "Data Analytics",
-      description: "Disaster risk analysis supported by data preparation and visual reporting.",
-      highlights: [
-        "Analyzed population, emergency shelter, flood, and damage data to assess disaster risks and identify relevant patterns.",
-        "Processed and organized datasets using Python to prepare data for analysis and interpretation.",
-        "Developed Power BI dashboards and infographics to visualize key indicators and communicate data-driven insights.",
-      ],
-      stack: ["Python", "Power BI"],
-      github: null,
-      demo: null,
-    },
-    {
-      id: "03",
-      period: "[Month Year]",
       name: "Rice Disease Prediction Using Deep Learning",
       category: "Deep Learning",
       description: "A two-stage deep learning pipeline for rice leaf detection and disease classification.",
@@ -114,9 +99,8 @@ export const portfolio: Portfolio = {
     role: "Team Leader",
     period: "June 2026",
     highlights: [
-      "Led the team in developing an AI-powered application for food analysis and personalized meal recommendations for people with diabetes.",
-      "Applied multi-class classification to identify specific rice diseases and compared five deep learning models.",
-      "Trained AI models and managed project financial planning.",
+      "Led the team in developing an AI-powered application for food analysis and personalized meal recommendations to help people with diabetes make healthier food choices.",
+      "Contributed to project ideation, trained AI models, and managed project financial planning.",
     ],
   }],
   socials: [
@@ -149,17 +133,6 @@ const thaiProjects: Record<string, ProjectTranslation> = {
     ],
   },
   "02": {
-    period: "[เดือน ปี]",
-    name: "ระบบประเมินความเสี่ยงภัยพิบัติและวิเคราะห์ข้อมูล",
-    category: "การวิเคราะห์ข้อมูล",
-    description: "วิเคราะห์ความเสี่ยงจากภัยพิบัติ ตั้งแต่การเตรียมข้อมูลไปจนถึงการนำเสนอผลด้วยภาพ",
-    highlights: [
-      "วิเคราะห์ข้อมูลประชากร ศูนย์พักพิงฉุกเฉิน น้ำท่วม และความเสียหาย เพื่อประเมินความเสี่ยงจากภัยพิบัติและค้นหารูปแบบที่เกี่ยวข้อง",
-      "ประมวลผลและจัดระเบียบชุดข้อมูลด้วย Python เพื่อเตรียมพร้อมสำหรับการวิเคราะห์และตีความ",
-      "พัฒนาแดชบอร์ดด้วย Power BI และสร้างอินโฟกราฟิก เพื่อแสดงตัวชี้วัดสำคัญและสื่อสารข้อค้นพบจากข้อมูล",
-    ],
-  },
-  "03": {
     period: "[เดือน ปี]",
     name: "การทำนายโรคข้าวด้วย Deep Learning",
     category: "ดีปเลิร์นนิง",
@@ -208,9 +181,8 @@ const thaiPortfolio: Portfolio = {
     role: "หัวหน้าทีม",
     period: "มิถุนายน 2026",
     highlights: [
-      "นำทีมพัฒนาแอปพลิเคชันที่ใช้ AI วิเคราะห์อาหารและแนะนำมื้ออาหารเฉพาะบุคคลสำหรับผู้เป็นเบาหวาน",
-      "ประยุกต์ใช้การจำแนกแบบหลายกลุ่มเพื่อระบุโรคข้าว และเปรียบเทียบโมเดล Deep Learning จำนวน 5 แบบ",
-      "ฝึกโมเดล AI และดูแลการวางแผนการเงินของโครงการ",
+      "นำทีมพัฒนาแอปพลิเคชัน AI สำหรับวิเคราะห์อาหารและแนะนำมื้ออาหารเฉพาะบุคคล เพื่อช่วยให้ผู้ป่วยเบาหวานเลือกรับประทานอาหารที่ดีต่อสุขภาพมากขึ้น",
+      "มีส่วนร่วมในการคิดแนวทางโครงการ ฝึกโมเดล AI และดูแลการวางแผนการเงินของโครงการ",
     ],
   })),
   socials: portfolio.socials.map((social) => ({ ...social, label: social.kind === "email" ? "อีเมล" : social.label })),
