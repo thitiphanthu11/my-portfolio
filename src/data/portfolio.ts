@@ -61,7 +61,7 @@ export const portfolio: Portfolio = {
       period: "[Month Year]",
       name: "Analysis of Factors Affecting Rice Yield Decline Using Machine Learning",
       category: "Machine Learning",
-      description: "Analyzed factors affecting rice yield decline and built predictive models to support informed agricultural planning.",
+      description: null,
       highlights: [
         "Developed a machine learning project to analyze and predict rice yield decline, helping farmers make informed decisions and improve agricultural planning.",
         "Cleaned and preprocessed rice yield datasets using Python and Pandas for predictive modeling.",
@@ -74,6 +74,21 @@ export const portfolio: Portfolio = {
     },
     {
       id: "02",
+      period: "[Month Year]",
+      name: "Disaster Risk Assessment and Data Analytics System",
+      category: "Data Analytics",
+      description: null,
+      highlights: [
+        "Analyzed population, emergency shelter, flood, and damage data to assess disaster risks and identify relevant patterns.",
+        "Processed and organized datasets using Python to prepare data for analysis and interpretation.",
+        "Developed Power BI dashboards and infographics to visualize key indicators and communicate data-driven insights.",
+      ],
+      stack: ["Python", "Power BI"],
+      github: null,
+      demo: null,
+    },
+    {
+      id: "03",
       period: "[Month Year]",
       name: "Rice Disease Prediction Using Deep Learning",
       category: "Deep Learning",
@@ -124,7 +139,7 @@ const thaiProjects: Record<string, ProjectTranslation> = {
     period: "[เดือน ปี]",
     name: "การวิเคราะห์ปัจจัยที่ส่งผลต่อการลดลงของผลผลิตข้าวด้วย Machine Learning",
     category: "แมชชีนเลิร์นนิง",
-    description: "วิเคราะห์ปัจจัยที่ส่งผลต่อการลดลงของผลผลิตข้าวและสร้างโมเดลพยากรณ์ เพื่อสนับสนุนการวางแผนการเกษตรอย่างมีข้อมูล",
+    description: null,
     highlights: [
       "พัฒนาโปรเจกต์ Machine Learning เพื่อวิเคราะห์และพยากรณ์การลดลงของผลผลิตข้าว ช่วยให้เกษตรกรตัดสินใจและวางแผนด้านการเกษตรได้อย่างมีข้อมูล",
       "ทำความสะอาดและเตรียมชุดข้อมูลผลผลิตข้าวด้วย Python และ Pandas เพื่อใช้สร้างโมเดลพยากรณ์",
@@ -133,6 +148,17 @@ const thaiProjects: Record<string, ProjectTranslation> = {
     ],
   },
   "02": {
+    period: "[เดือน ปี]",
+    name: "ระบบประเมินความเสี่ยงภัยพิบัติและวิเคราะห์ข้อมูล",
+    category: "การวิเคราะห์ข้อมูล",
+    description: null,
+    highlights: [
+      "วิเคราะห์ข้อมูลประชากร ศูนย์พักพิงฉุกเฉิน น้ำท่วม และความเสียหาย เพื่อประเมินความเสี่ยงจากภัยพิบัติและค้นหารูปแบบที่เกี่ยวข้อง",
+      "ประมวลผลและจัดระเบียบชุดข้อมูลด้วย Python เพื่อเตรียมพร้อมสำหรับการวิเคราะห์และตีความ",
+      "พัฒนาแดชบอร์ดด้วย Power BI และสร้างอินโฟกราฟิก เพื่อแสดงตัวชี้วัดสำคัญและสื่อสารข้อค้นพบจากข้อมูล",
+    ],
+  },
+  "03": {
     period: "[เดือน ปี]",
     name: "การทำนายโรคข้าวด้วย Deep Learning",
     category: "ดีปเลิร์นนิง",
